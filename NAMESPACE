@@ -1,0 +1,22 @@
+# Export specific functions and objects
+export(create_histogram)
+export(create_scatter_plot)
+export(create_line_chart)
+export(create_bar_plot)
+export(customize_plot)
+export(visualize_distribution)
+export(visualize_relationship)
+export(visualize_trend)
+export(visualize_comparison)
+
+# Import necessary dependencies
+import(ggplot2)
+importFrom(DataVisTools, create_histogram)
+importFrom(DataVisTools, create_scatter_plot)
+importFrom(DataVisTools, create_line_chart)
+importFrom(DataVisTools, create_bar_plot)
+importFrom(DataVisTools, customize_plot)
+importFrom(DataVisTools, visualize_distribution)
+importFrom(DataVisTools, visualize_relationship)
+importFrom(DataVisTools, visualize_trend)
+importFrom(DataVisTools, visualize_comparison)
